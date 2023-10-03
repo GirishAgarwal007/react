@@ -6,6 +6,7 @@ function App() {
     <div className="App">
   	<h1>Hello World! </h1>
 	  <h1> Welcome to the OG </h1> 
+	  <h1> This Project is handled by OG </h1>
 	  </div>
   );
 }
