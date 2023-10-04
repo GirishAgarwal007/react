@@ -5,11 +5,8 @@ function App() {
   return (
     <div className="App">
   	<h1>Hello World! </h1>
-	  <h1> Welcome to the OG </h1> 
-	  <h1> This Project is handled by OG </h1>
 	  <h1> Welcome to the OG Family </h1>
-	  <h1> This is my first Pipeline </h1>
-          <h1> New code generated <h1>
+	  <h1> This is Jenkins Pipeline Project </h1>
 	  </div>
   );
 }
