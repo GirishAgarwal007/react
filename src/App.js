@@ -8,7 +8,7 @@ function App() {
 	  <h1> Welcome to the OG Family </h1>
 	  <h1> This is Jenkins Pipeline Project </h1>
 	  <h1> Scripted Pipeline </h1>
-	  <h1> Hello World! again </h1i>
+	  <h1> Hello World! again </h1>
 	  <h1> New version is on the way </h1>
 	  </div>
   );
