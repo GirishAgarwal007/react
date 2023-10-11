@@ -229,9 +229,11 @@ node {
     stage("Dockerize the application") {
         sh '''sudo docker build -t react:pipeline .
               sudo docker stop app1
+	      sleep 10
               sudo docker run --rm -dit --name app1 -p 3000:3000 react:pipeline
-              sleep 20
+              sleep 10
               sudo docker stop app2
+	      sleep 10
               sudo docker run --rm -dit --name app2 -p 3001:3000 react:pipeline
               sudo systemctl restart nginx'''
             }
