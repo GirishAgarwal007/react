@@ -265,9 +265,9 @@ Check console output at $BUILD_URL to view the results.''', subject: '$PROJECT_N
 - As new code is pushed to the GitHub repository, The GitHub Webhook will trigger the Jenkins Pipeline.
 - Jenkins build will be triggered and the pipeline will run.
 - Initially, it builds a docker image using Dockerfile.
-- Then, it will stop a running container if available and launch another Container using that image.
-- sleep for 20s.
-- Then, it will stop another running container if available and another new Container will be launched using same image.
+- Then, it will stop a running container if available, sleep for 10s and launch another Container using that image.
+- sleep for 10s.
+- Then, it will stop another running container if available for 10s and another new Container will be launched using same image.
 - Then, Restarts the nginx service to implement the changes
 - Notification on Email and Notification on Slack will be sent about every build. And the notification contains PROJECT_NAME, BUILD_ID, BUILD_USER, JOB_NAME, and BUILD_URL 
 
