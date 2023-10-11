@@ -18,7 +18,7 @@ This project provides a step-by-step guide to deploy a React application within 
 - [Nginx Installation](#nginx-installation)
 - [Jenkins Setup](#jenkins-setup)
 - [Creating Pipeline](#creating-pipeline)
-- [setup of GitHub hook trigger for GITScm polling](#setup-of-github-hook-trigger-for-gitscm-polling)
+- [Setup of GitHub hook trigger for GITScm polling](#setup-of-github-hook-trigger-for-gitscm-polling)
 - [Pipeline](#pipeline)
 - [Understand the Pipeline Workflow](#understand-the-pipeline-workflow)
 - [Dockerfile](#dockerfile)
@@ -205,7 +205,7 @@ sudo systemctl status nginx
 - Step 6: Provide pipeline syntax(groovy)
 - Step 7: Click on "Save"
 
-## setup of GitHub hook trigger for GITScm polling
+## Setup of GitHub hook trigger for GITScm polling
 
 When Jenkins receives a GitHub push hook, GitHub Plugin checks to see whether the hook came from a GitHub repository which matches the Git repository defined in SCM/Git section of this job. If they match and this option is enabled, GitHub Plugin triggers a one-time polling on GITScm. When GITScm polls GitHub, it finds that there is a change and initiates a build.
 
