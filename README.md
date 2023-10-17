@@ -63,6 +63,11 @@ Jenkins is an open source continuous integration/continuous delivery and deploym
 Follow the official document:
   https://www.jenkins.io/doc/book/installing/linux/ 
 
+  ```bash
+# installing Java
+sudo apt update -you
+sudo apt install default-jre
+```
 ```bash
 # installing jenkins 
 curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
